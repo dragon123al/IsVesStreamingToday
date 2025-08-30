@@ -13,7 +13,7 @@ const statusElement = document.getElementById("stream-status");
 const streamLink = "https://www.twitch.tv/vespernoctum";
 
 if (streamToday(today)) {
-  statusElement.innerHTML = `<a href="${streamLink}" target="_blank">Yes</a>`;
+  statusElement.innerHTML = `<a href="${streamLink}" target="_blank">Yes!</a>`;
 } else {
   statusElement.textContent = "No.";
 }
