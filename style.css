@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 10px;
+  text-align: center;
+  color: darkviolet;
+  background-color: #2b2b2b;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h2 a {
+  color: darkviolet;
+}
+
+h2 a:hover {
+  color: cyan;
+}
